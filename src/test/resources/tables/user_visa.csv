@@ -1,0 +1,5 @@
+id,first_name,last_name,from_country,to_country,month,day,year,customer_email,area_code,phone,comments
+1,Lionel,Messi,Argentina,Portugal,JANUARY,1,1987,lionel.messi@gmail.com,+91,0123456789,testing one
+2,Sadio,Mane,Senegal,Egypt,FEBRUARY,2,1988,sadio.mane@gmail.com,+92,0123456789,testing two
+3,Mo,Salah,Egypt,Senegal,MARCH,3,1989,mo.salah@gmail.com,+93,0123456789,testing three
+4,Diago,Jota,Portugal,Argentina,APRIL,4,1990,diago.jota@gmail.com,+94,0123456789,testing four

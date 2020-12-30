@@ -1,0 +1,62 @@
+version: "3.1"
+services:
+  Testproject-agent-01:
+    image: testproject/agent:latest
+    container_name: testproject-agent-01
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      TP_API_KEY: ODpe9HcZVRiZDdd1dQ9eU-UKRukeurRR6286uLg8_Oo1
+      TP_AGENT_ALIAS: "Docker Agent 01"
+      TP_JOB_ID: lsClFJgLWEmJW6gmFDdbPA
+      TP_JOB_PARAMS: '"jobParameters" : { "browsers": [ "chrome" ] }'
+      CHROME: "chrome:4444"
+      FIREFOX: "firefox:4444"
+  Testproject-agent-02:
+    image: testproject/agent:latest
+    container_name: testproject-agent-02
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      TP_API_KEY: ODpe9HcZVRiZDdd1dQ9eU-UKRukeurRR6286uLg8_Oo1
+      TP_AGENT_ALIAS: "Docker Agent 02"
+      TP_JOB_ID: RD2wDBfDVEm5INwp6u6ZRQ
+      TP_JOB_PARAMS: '"jobParameters" : { "browsers": [ "firefox" ] }'
+      CHROME: "chrome:4444"
+      FIREFOX: "firefox:4444"
+  Testproject-agent-03:
+    image: testproject/agent:latest
+    container_name: testproject-agent-03
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      TP_API_KEY: ODpe9HcZVRiZDdd1dQ9eU-UKRukeurRR6286uLg8_Oo1
+      TP_AGENT_ALIAS: "Docker Agent 03"
+      TP_JOB_ID: jZ7rhsqovEy6468vPMp15g
+      TP_JOB_PARAMS: '"jobParameters" : { "browsers": [ "chrome" ] }'
+      CHROME: "chrome:4444"
+      FIREFOX: "firefox:4444"
+  Testproject-agent-04:
+    image: testproject/agent:latest
+    container_name: testproject-agent-04
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      TP_API_KEY: ODpe9HcZVRiZDdd1dQ9eU-UKRukeurRR6286uLg8_Oo1
+      TP_AGENT_ALIAS: "Docker Agent 04"
+      TP_JOB_ID: CYiw26PKIES5mqdveJBvIg
+      TP_JOB_PARAMS: '"jobParameters" : { "browsers": [ "firefox" ] }'
+      CHROME: "chrome:4444"
+      FIREFOX: "firefox:4444"
+  chrome:
+    image: selenium/standalone-chrome
+    volumes:
+      - /dev/shm:/dev/shm
+  firefox:
+    image: selenium/standalone-firefox
+    volumes:
+      - /dev/shm:/dev/shm

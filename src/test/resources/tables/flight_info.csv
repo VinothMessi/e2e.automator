@@ -1,0 +1,5 @@
+id,first_name,last_name,phone,email,address,city,state,postal_code,country,user_name,password,confirm_password,trip_type,passengers,departing_place,departing_month,departing_date,arriving_place,arriving_month,arriving_date,airline
+1,Lionel,Messi,1234567890,lionel.messi@gmail.com,123 test address,Chennai,Tamil Nadu,600080,ARGENTINA,LionelMessi,welcome123,welcome123,roundtrip,1,London,1,26,New York,1,26,Blue Skies Airlines
+2,Sadio,Mane,1234567890,sadio.mane@gmail.com,456 test address,Salem,Tamil Nadu,600081,SENEGAL,SadioMane,welcome456,welcome456,oneway,2,Paris,2,27,Portland,2,27,Unified Airlines
+3,Mo,Salah,1234567890,mo.salah@gmail.com,789 test address,Trichy,Tamil Nadu,600082,EGYPT,MoSalah,welcome789,welcome789,roundtrip,3,Sydney,3,28,Frankfurt,3,28,Pangea Airlines
+4,Diago,Jota,1234567890,diago.jota@gmail.com,012 test address,Madurai,Tamil Nadu,600083,PORTUGAL,DiagoJota,welcome012,welcome012,oneway,4,Zurich,4,29,Acapulco,4,29,No Preference

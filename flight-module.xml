@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="End To End Web Application Automator">
+
+	<test name="Flight Reservation">
+
+		<classes>
+
+			<class
+				name="com.web.application.e2e.automator.testcases.FlightReservation" />
+
+		</classes>
+
+	</test>
+
+</suite>
